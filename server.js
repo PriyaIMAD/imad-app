@@ -35,7 +35,7 @@ var articles = {
         heading:'Article Three',
         content:`
                     <p>
-                        This is the content of my Three article.
+                        This is the content of my third article.
                     </p> 
                     `
   }
