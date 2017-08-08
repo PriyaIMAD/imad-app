@@ -17,7 +17,7 @@ button.onclick = function(){
         }
     };
     
-    request.open('GET', "http://http://priyabhandari.imad.hasura-app.io/counter", true);
+    request.open('GET', "http://priyabhandari.imad.hasura-app.io/counter", true);
     request.send(null);
 };
     
