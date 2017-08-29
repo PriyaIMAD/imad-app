@@ -125,6 +125,11 @@ app.get('/check-login', function(req, res){
    
 });
 
+app.get('/logout', function(req, res){
+   delete req.session.auth;
+   res.send("You are logged out");
+});
+
 app.get('/hash/:input', function(req, res){
     var hashedString = hash(req.params.input, 'this-is-some-random-string' );
     res.send(hashedString);
